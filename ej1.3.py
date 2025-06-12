@@ -28,3 +28,5 @@ def prim(grafo):
       if u not in visitados:
         q.encolar((w,u), grafo.peso_arista(w, u)) #Si no estan visitados ir agregando al heap
   return arbol
+
+# La complejidad del algoritmo es O(E.Log(V))
